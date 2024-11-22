@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get a Quote</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hire.css">
+    <script src="scripts/quote.js"></script>
+</head>
+<body>
+    <div class="section">
+        <form>
+            <h1>Get a Quote</h1>
+
+            <label for="email">Email (Quote will be sent here)</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" />
+
+            <label for="message">Describe the project</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here" style="resize: none;"></textarea>
+            
+            <p id="error" style="color: red; display: none;">Error</p>
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+</body>
+</html>
