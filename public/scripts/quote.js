@@ -18,6 +18,21 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const mail = document.querySelector('input[type="email"]').value;
-        console.log(mail);
+        fetch("/quote", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                message: txt,
+                email: mail
+            })
+        }).then(res => res.json()).then(data => {
+            if(data.error) {
+                displayError(data.error);
+            } else {
+                alert(data.message)
+            }
+        })
     });
 })
