@@ -6,8 +6,8 @@ setInterval(() => {
     const who = document.querySelector('#changingTitle');
 
     const texts = [
-        "Hey, I'm a Software Engineer",
-        "Hey, I'm a Full Stack Developer",
+        "Hey, I'm a Software Developer",
+        "Hey, I'm a Tech Enthusiast",
         "Hey, I'm a Web Developer",
         "Hey, I'm a Student",
     ]

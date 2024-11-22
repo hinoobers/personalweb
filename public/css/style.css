@@ -23,6 +23,10 @@ button, input[type="submit"] {
     font-size: 18px;
 }
 
+button:hover, input[type="submit"]:hover {
+    background-color: #333;
+}
+
 #snow-container {
     display: block;
     position: absolute;

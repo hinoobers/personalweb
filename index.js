@@ -17,9 +17,9 @@ app.use(rateLimit);
 app.get("/projects", (req, res) => {
     const projects = []
     projects.push({
-        name: "BedWars",
-        git: "https://github.com/hinoobers/BedWars",
-        preview: "https://opengraph.githubassets.com/8527dcd5bff03208e5ceeb675b11290667ef19090ea12cacbe89f4422806180a/hinoobe   rs/BedWars"
+        name: "GChat",
+        git: "https://github.com/hinoobers/gchat",
+        preview: "https://opengraph.githubassets.com/8527dcd5bff03208e5ceeb675b11290667ef19090ea12cacbe89f4422806180a/hinoobers/gchat"
     }, {
         name: "Doubloon calculator",
         git: "https://github.com/hinoobers/doublooncalc",
